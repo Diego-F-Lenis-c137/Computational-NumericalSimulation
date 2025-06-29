@@ -12,7 +12,7 @@ Implementación en Python de métodos de aproximación, interpolación y resoluc
 
 ---
 
-- [ x ] Aproximación con polinomio de Taylor.
+- [x] Aproximación con polinomio de Taylor.
 - [ ] Solución de ecuaciones no lineales.
     - [ ] Bisección
     - [ ] Newthon-Raphson
