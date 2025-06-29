@@ -12,10 +12,14 @@ Implementación en Python de métodos de aproximación, interpolación y resoluc
 
 ---
 
-- Aproximación con polinomio de Taylor.
-- Solución de ecuaciones no lineales.
-    - Bisección, Newthon-Raphson
-- Interpolacion
-    Lagrange, Diferencias Divididas
-- Minimos cuadrados: lineal, polinomio, exp
-- Solucion de diferenciales: Diferencias finitas
+- [ x ] Aproximación con polinomio de Taylor.
+- [ ] Solución de ecuaciones no lineales.
+    - [ ] Bisección
+    - [ ] Newthon-Raphson
+- [ ] Interpolacion
+    - [ ] Lagrange
+    - [ ] Diferencias Divididas
+- [ ] Minimos cuadrados:
+    - [ ] lineal
+    - [ ] polinomio, exp
+- [ ] Solucion de diferenciales: Diferencias finitas
