@@ -24,10 +24,12 @@ def diferencias_divididas():
     eleccion = input("Ingrese el número de la función: ")
 
     if eleccion == "6":
-        print("\n👉 Guía para ingresar funciones:")
+        print("\n Guía rápida para ingresar funciones:")
         print(" - Usa 'x' como variable.")
-        print(" - Usa ** para potencias.")
-        print(" - Funciones válidas: sin(x), cos(x), exp(x), log(x), etc.")
+        print(" - Usa ** para potencias (ej. x**2 para x al cuadrado).")
+        print(" - Puedes usar funciones como sin(x), cos(x), exp(x), log(x), etc.")
+        print(" - Para funciones como 4x^2 + 3x - 5, escribe: 4*x**2 + 3*x - 5")
+        print("Ejemplo válido: exp(-x) - x\n")
         funcion_usuario = input("Escribe tu función f(x): ")
         try:
             f = sp.sympify(funcion_usuario)
