@@ -1,6 +1,6 @@
 import sympy as sp
 import f_inputs as fin
-from tabulate import tabulate
+
 ans = 0
 def biseccion():
     print(
