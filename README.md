@@ -20,7 +20,7 @@ Implementación en Python de métodos de aproximación, interpolación y resoluc
     - [x] Lagrange
     - [x] Diferencias Divididas
 - [ ] Minimos cuadrados:
-    - [ ] lineal
+    - [x] lineal
     - [ ] polinomio
     - [ ] exp
 - [ ] Solucion de diferenciales: Diferencias finitas
