@@ -18,7 +18,7 @@ Implementación en Python de métodos de aproximación, interpolación y resoluc
     - [x] Newthon-Raphson
 - [ ] Interpolacion
     - [ ] Lagrange
-    - [ ] Diferencias Divididas
+    - [x] Diferencias Divididas
 - [ ] Minimos cuadrados:
     - [ ] lineal
     - [ ] polinomio, exp
