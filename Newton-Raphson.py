@@ -52,7 +52,7 @@ def newton_raphson():
     x0 = float(input("Ingrese el valor inicial x0: "))
     tol = float(input("Ingrese la tolerancia (ej. 1e-6): "))
     max_iter = int(input("Ingrese el número máximo de iteraciones: "))
-
+    a = True
     iter_count = 0
     tabla = []
 
