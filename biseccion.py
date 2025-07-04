@@ -24,8 +24,8 @@ def biseccion():
     print(" - f(a) * f(b) debe ser < 0")
     
     while(True):
-        a = int(input("valor incial 'a' //:"))
-        b = int(input("valor final 'b' //:"))
+        a = float(input("valor incial 'a' //:"))
+        b = float(input("valor final 'b' //:"))
         fa = fun.evalf(subs={x: a})
         print(f"f(a) = {fa}")
         fb = fun.evalf(subs={x: b})
@@ -53,7 +53,7 @@ def biseccion():
 def midpoint(a, b, t, depth):
     if (depth <= 0):
         c = ((a + b)/2)
-        fc =  abs(fun.evalf(subs={x: c}))
+        fc =  fun.evalf(subs={x: c})
         global ans
         ans = fc
     else:
@@ -61,7 +61,7 @@ def midpoint(a, b, t, depth):
         print(f"punto medio x: {c}")
         fa =  fun.evalf(subs={x: a})
         fb =  fun.evalf(subs={x: b})
-        fc =  abs(fun.evalf(subs={x: c}))
+        fc =  fun.evalf(subs={x: c})
         if ((fc*fa)<0):
             midpoint(a, c, t, depth-1)
         elif ((fc*fb) < 0):
